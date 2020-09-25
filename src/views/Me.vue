@@ -31,14 +31,14 @@
     </b-card>
     <div class="container my-2 mx-4">
       <a href="https://github.com/juanrex04" target="_BLANK">
-        <img id="github" src="../assets/img/github.png" />
+        <img id="gitHub" src="../assets/img/github.png" />
       </a>
       <a
         href="https://www.linkedin.com/in/juan-manuel-restrepo-moreno-6ab45a19b"
         target="_BLANK"
         class="mx-4"
       >
-        <img id="linked" src="../assets/img/linkedin.png" />
+        <img id="linkedin" src="../assets/img/linkedin.png" />
       </a>
     </div>
   </div>
