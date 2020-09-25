@@ -10,7 +10,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "Me" */ '../views/Me.vue')
   },
   {
-    path: '/skill',
+    path: '/habilidadesConocimientos',
     name: 'skill',
     component: () => import(/* webpackChunkName: "skill" */ '../views/skill.vue')
   },
@@ -20,7 +20,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "curriculum" */ '../views/curriculum.vue')
   },
   {
-    path: '/portfolio',
+    path: '/portafolio',
     name: 'portfolio',
     component: () => import(/* webpackChunkName: "portfolio" */ '../views/portfolio.vue')
   }

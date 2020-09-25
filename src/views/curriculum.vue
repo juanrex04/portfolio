@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="mx-3 my-4">
     <h1>Curriculum</h1>
-    <a href="../assets/cv-juan.pdf" download>
-      <img id="cv" src="../assets/cv.png"/>
+    <a href="../assets/docs/cv-juan.pdf" download>
+      <img id="cv" src="../assets/img/cv.png"/>
     </a>
   </div>
 </template>
@@ -11,6 +11,6 @@ export default {};
 </script>
 <style>
 #cv {
-  width: 300px;
+  width: 30%;
 }
 </style>
