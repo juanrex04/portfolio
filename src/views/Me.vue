@@ -4,7 +4,7 @@
       <b-row no-gutters>
         <b-col>
           <b-card
-            :img-src="require(`@/assets/img/photo.jpg`)"
+            :img-src="require(`../assets/img/photo.jpg`)"
             alt="Juan"
           ></b-card>
         </b-col>
