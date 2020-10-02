@@ -3,7 +3,7 @@
     <h1>Curriculum</h1>
     <img id="cv" src="../assets/img/cv.png" />
     <br />
-    <a :href="require('../assets/docs/cv-juan.pdf')" target="_BLANK">
+    <a target="_BLANK">
       <b-button>Presiona aqui si quieres ver mi Curriculum Vitae</b-button>
     </a>
   </div>
