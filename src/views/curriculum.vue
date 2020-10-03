@@ -3,12 +3,14 @@
     <h1>Curriculum</h1>
     <img id="cv" src="../assets/img/cv.png" />
     <br />
-    <a target="_BLANK">
+    <a href="https://drive.google.com/file/d/1ohYQnJLvUnMOMwNqCOROiXHduZUKJ-uG/view?usp=sharing" target="_BLANK">
       <b-button>Presiona aqui si quieres ver mi Curriculum Vitae</b-button>
     </a>
   </div>
 </template>
 <script>
+import pdfFile from '../assets/img/photo.jpg'
+//target="_BLANK"
 export default {};
 </script>
 <style>
