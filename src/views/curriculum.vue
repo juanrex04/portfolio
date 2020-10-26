@@ -9,7 +9,6 @@
   </div>
 </template>
 <script>
-//import pdfFile from '../assets/docs/cv-juan.pdf'
 //target="_BLANK"
 export default {};
 </script>
