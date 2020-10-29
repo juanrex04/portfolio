@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-4">
+  <div id="master" class="container mt-4">
     <b-card
       no-body
       class="overflow-hidden"
@@ -7,12 +7,12 @@
       text-variant="white"
     >
       <b-row no-gutters>
-        <!--<b-col>
+        <b-col>
           <b-card
             :img-src="require(`../assets/img/photo.jpg`)"
             alt="Juan"
           ></b-card>
-        </b-col>-->
+        </b-col>
         <b-col id="body">
           <b-card-body
             title="Desarrollador fronted, Tester/QA, Soporte técnico"
@@ -55,6 +55,14 @@
 export default {};
 </script>
 <style>
+#master{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: #182a3f;
+  min-height: 120vh;
+  max-height: 200vh;
+}
 #github {
   width: 100px;
 }

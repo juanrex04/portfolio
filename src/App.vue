@@ -24,8 +24,6 @@
 </template>
 <style>
 #app {
-  margin: 0;
-  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

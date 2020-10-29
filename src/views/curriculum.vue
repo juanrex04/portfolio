@@ -1,5 +1,5 @@
 <template>
-  <div class=" container mx-3 my-4">
+  <div id="body" class=" container mx-3 my-4">
     <h1 id="title">Curriculum</h1>
     <img id="cv" src="../assets/img/cv.png" />
     <br />
@@ -20,5 +20,8 @@ export default {};
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   float: center;
   color: white;
+}
+#body{
+  min-height: 50vh;
 }
 </style>
