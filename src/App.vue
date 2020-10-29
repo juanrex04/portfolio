@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="">
     <div>
       <b-navbar id="navBar" toggleable="lg" type="dark">
         <b-container>
@@ -27,7 +27,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: #2c3e50;
+  background: #182a3f;
+  
 }
 #navBar {
   background-color: #232f3e;

@@ -2,12 +2,12 @@
   <div class="container mt-4">
     <b-card no-body class="overflow-hidden">
       <b-row no-gutters>
-        <b-col>
+        <!--<b-col>
           <b-card
             :img-src="require(`../assets/img/photo.jpg`)"
             alt="Juan"
           ></b-card>
-        </b-col>
+        </b-col>-->
         <b-col>
           <b-card-body
             title="Desarrollador fronted, Tester/QA, Soporte técnico"
