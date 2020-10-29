@@ -1,6 +1,11 @@
 <template>
   <div class="container mt-4">
-    <b-card no-body class="overflow-hidden">
+    <b-card
+      no-body
+      class="overflow-hidden"
+      bg-variant="dark"
+      text-variant="white"
+    >
       <b-row no-gutters>
         <!--<b-col>
           <b-card
@@ -8,10 +13,11 @@
             alt="Juan"
           ></b-card>
         </b-col>-->
-        <b-col>
+        <b-col id="body">
           <b-card-body
             title="Desarrollador fronted, Tester/QA, Soporte técnico"
             class="my-5"
+            body-text-variant="Franklin Gothic Medium"
           >
             <b-card-text class="my-5">
               Soy un joven que desea crecer cada dia adquiriendo más
@@ -29,6 +35,7 @@
         </b-col>
       </b-row>
     </b-card>
+    <br />
     <div class="container my-2 mx-4">
       <a href="https://github.com/juanrex04" target="_BLANK">
         <img id="gitHub" src="../assets/img/github.png" />
@@ -56,5 +63,12 @@ export default {};
 }
 #description {
   text-align: left;
+}
+#title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  float: right;
+}
+#body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 </style>

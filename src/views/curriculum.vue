@@ -1,6 +1,6 @@
 <template>
   <div class=" container mx-3 my-4">
-    <h1>Curriculum</h1>
+    <h1 id="title">Curriculum</h1>
     <img id="cv" src="../assets/img/cv.png" />
     <br />
     <a href='../assets/docs/cv-juan.pdf' download="Juan Restrepo - CV.pdf">
@@ -15,5 +15,10 @@ export default {};
 <style>
 #cv {
   width: 30%;
+}
+#title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  float: center;
+  color: white;
 }
 </style>
