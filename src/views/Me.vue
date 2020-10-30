@@ -8,10 +8,12 @@
     >
       <b-row no-gutters>
         <b-col>
-          <b-card
-            :img-src="require(`../assets/img/photo.jpg`)"
-            alt="Juan"
-          ></b-card>
+          <b-card>
+            <b-img
+              :src="require(`../assets/img/photo.jpg`)"
+              fluid
+              alt="Juan Manuel"
+          /></b-card>
         </b-col>
         <b-col id="body">
           <b-card-body
@@ -55,13 +57,17 @@
 export default {};
 </script>
 <style>
-#master{
+#master {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background: #2d4e74;
   min-height: 120vh;
   max-height: 200vh;
+}
+#img {
+  max-width: 100%;
+  height: auto;
 }
 #github {
   width: 100px;
@@ -74,7 +80,7 @@ export default {};
 }
 #title {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  float: right;
+  float: center;
 }
 #body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

@@ -1,6 +1,6 @@
 <template>
   <div id="port">
-    <h1 id="title">Portafolio</h1>
+    <h1 id="titles">Portafolio</h1>
   </div>
 </template>
 <style>
@@ -11,9 +11,8 @@
   background: #2d4e74;
   min-height: 80vh;
 }
-#title {
+#titles {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  float: center;
   color: white;
 }
 </style>
