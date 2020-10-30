@@ -20,7 +20,8 @@ export default {};
   float: center;
   color: white;
 }
-#body{
-  min-height: 50vh;
+.body{
+  min-height: 150vh;
+  max-height: 150vh;
 }
 </style>

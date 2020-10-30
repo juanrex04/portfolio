@@ -1,5 +1,5 @@
 <template>
-  <div id="skill" class="container">
+  <div id="skill" class="container.fluid">
     <div title="skills">
       <h1 id="titles" class="my-4">HARDSKILLS</h1>
       <img id="express" src="../assets/img/express.png" class="my-4" />
@@ -17,7 +17,7 @@
     <br />
     <br />
     <br />
-    <div title="knowledge" class="container">
+    <div title="knowledge" class="container.fluid">
       <h1 id="titles">SOFTSKILLS</h1>
       <img id="mindset" src="../assets/img/mindset.png" />
     </div>
@@ -34,7 +34,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   background: #2d4e74;
   min-height: 85vh;
-  max-height: 200vh;
+  max-height: 150vh;
+  height: auto;
 }
 #titles {
   color: white;

@@ -27,6 +27,7 @@
   text-align: center;
   background: #2d4e74;
   min-height: 100vh;
+
 }
 #navBar {
   background-color: #232f3e;
