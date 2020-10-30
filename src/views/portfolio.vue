@@ -8,7 +8,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: #182a3f;
+  background: #2d4e74;
   min-height: 80vh;
 }
 #title {

@@ -1,6 +1,5 @@
 <template>
-  <div id="body" class=" container mx-3 my-4">
-    <h1 id="title">Curriculum</h1>
+  <div id="body" class="container mx-3 my-4">
     <img id="cv" src="../assets/img/cv.png" />
     <br />
     <a href='../assets/docs/cv-juan.pdf' download="Juan Restrepo - CV.pdf">

@@ -8,9 +8,7 @@
         >
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
-            <b-nav-item :to="{ name: 'skill' }"
-              >Habilidades y Conocimiento</b-nav-item
-            >
+            <b-nav-item :to="{ name: 'skill' }">Habilidades y Conocimiento</b-nav-item            >
             <b-nav-item :to="{ name: 'curriculum' }">Curriculum</b-nav-item>
             <b-nav-item :to="{ name: 'portfolio' }">Portafolio</b-nav-item>
           </b-navbar-nav>
@@ -27,7 +25,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background: #182a3f;
+  background: #2d4e74;
   min-height: 100vh;
 }
 #navBar {

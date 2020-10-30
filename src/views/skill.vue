@@ -1,18 +1,24 @@
 <template>
-  <div id="skill" class="">
+  <div id="skill" class="container">
     <div title="skills">
+      <h1 id="titles" class="my-4">HARDSKILLS</h1>
       <img id="express" src="../assets/img/express.png" class="my-4" />
       <br />
-      <img id="java" src="../assets/img/javascript.svg" alt="" />
+      <img id="java" src="../assets/img/javascript.svg" />
       <br />
-      <img id="mongodb" src="../assets/img/mongodb.png" alt="" />
+      <img id="mongodb" src="../assets/img/mongodb.png" />
       <br />
-      <img id="vue" src="../assets/img/vue.png" alt="" />
+      <img id="vue" src="../assets/img/vue.png" class="my-5" />
       <br />
-      <img id="nodejs" src="../assets/img/nodejs.svg" alt="" />
+      <img id="nodejs" src="../assets/img/nodejs.svg" />
       <br />
     </div>
-    <div title="knowledge">
+    <br />
+    <br />
+    <br />
+    <br />
+    <div title="knowledge" class="container">
+      <h1 id="titles">SOFTSKILLS</h1>
       <img id="mindset" src="../assets/img/mindset.png" />
     </div>
   </div>
@@ -23,12 +29,16 @@ export default {
 };
 </script>
 <style>
-#skill{
+#skill {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #182a3f;
-  min-height: 150vh;
+  background: #2d4e74;
+  min-height: 85vh;
   max-height: 200vh;
+}
+#titles {
+  color: white;
+  float: center;
 }
 #express {
   width: 15%;
@@ -47,10 +57,10 @@ export default {
   float: left;
 }
 #mongodb {
-  width: 50%;
+  width: 30%;
   float: center;
 }
-#mindset{
+#mindset {
   width: 30%;
 }
 </style>
