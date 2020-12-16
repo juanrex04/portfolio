@@ -6,7 +6,7 @@
       bg-variant="dark"
       text-variant="white"
     >
-      <b-row no-gutters>
+      <b-row>
         <b-col md="6">
           <b-card>
             <b-img

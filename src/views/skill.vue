@@ -1,7 +1,7 @@
 <template>
-  <div id="skill" class="container.fluid">
-    <div title="skills">
-      <h1 id="titles" class="my-4">HARDSKILLS</h1>
+  <div id="skill" class="container">
+    <div title="skills" class="my-4">
+      <h1 id="titles" md="6">HARDSKILLS</h1>
       <img id="express" src="../assets/img/express.png" class="my-4" />
       <br />
       <img id="java" src="../assets/img/javascript.svg" />
@@ -15,10 +15,9 @@
     </div>
     <br />
     <br />
-    <br />
-    <br />
-    <div title="knowledge" class="container.fluid">
+    <div class="container">
       <h1 id="titles">SOFTSKILLS</h1>
+      <img id="mindset" src="../assets/img/mindset.png" />
       <img id="mindset" src="../assets/img/mindset.png" />
     </div>
   </div>
@@ -34,7 +33,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   background: #2d4e74;
   min-height: 85vh;
-  max-height: 150vh;
+  max-height: 155vh;
   height: auto;
 }
 #titles {
