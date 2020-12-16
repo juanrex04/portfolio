@@ -27,6 +27,7 @@
   text-align: center;
   background: #2d4e74;
   min-height: 100vh;
+  max-height: 200vh;
 
 }
 #navBar {

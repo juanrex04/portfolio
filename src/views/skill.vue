@@ -1,16 +1,52 @@
 <template>
   <div id="skill" class="container text-center">
-    <div title="skills" class="my-4">
+    <div title="hardskills" class="my-4">
       <h1 id="titles">HARDSKILLS</h1>
-      <b-img  class="mx-2" id="express" :src="require(`../assets/img/express.png`)" fluid alt="Fluid image"></b-img>
-      <b-img  class="mx-2" id="java" :src="require(`../assets/img/javascript.svg`)" fluid alt="Fluid image"></b-img>
-      <b-img  class="mx-2" id="mongodb" :src="require(`../assets/img/mongodb.png`)" fluid alt="Fluid image"></b-img>
-      <b-img  class="mx-2" id="vue" :src="require(`../assets/img/vue.png`)" fluid alt="Fluid image"></b-img>
-      <b-img  class="mx-2" id="nodejs" :src="require(`../assets/img/nodejs.svg`)" fluid alt="Fluid image"></b-img>
+      <b-img
+        class="mx-2"
+        id="express"
+        :src="require(`../assets/img/express.png`)"
+        fluid
+        alt="Fluid image"
+      ></b-img>
+      <b-img
+        class="mx-2"
+        id="java"
+        :src="require(`../assets/img/javascript.svg`)"
+        fluid
+        alt="Fluid image"
+      ></b-img>
+      <b-img
+        class="mx-2"
+        id="mongodb"
+        :src="require(`../assets/img/mongodb.png`)"
+        fluid
+        alt="Fluid image"
+      ></b-img>
+      <b-img
+        class="mx-2"
+        id="vue"
+        :src="require(`../assets/img/vue.png`)"
+        fluid
+        alt="Fluid image"
+      ></b-img>
+      <b-img
+        class="mx-2"
+        id="nodejs"
+        :src="require(`../assets/img/nodejs.svg`)"
+        fluid
+        alt="Fluid image"
+      ></b-img>
     </div>
-    <div class="container">
+    <div title="softskill" class="container">
       <h1 id="titles">SOFTSKILLS</h1>
-      <b-img id="mindset" :src="require(`../assets/img/mindset.png`)" fluid alt="Fluid image"></b-img>
+      <b-img
+        id="mindset"
+        :src="require(`../assets/img/mindset.png`)"
+        fluid
+        alt="Fluid image"
+      ></b-img>
+
     </div>
   </div>
 </template>
@@ -25,7 +61,8 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   background: #2d4e74;
   min-height: 100vh;
-  height: auto;
+  width: auto;
+
 }
 #titles {
   color: white;
