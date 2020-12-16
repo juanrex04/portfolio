@@ -1,24 +1,16 @@
 <template>
-  <div id="skill" class="container">
+  <div id="skill" class="container text-center">
     <div title="skills" class="my-4">
-      <h1 id="titles" md="6">HARDSKILLS</h1>
-      <img id="express" src="../assets/img/express.png" class="my-4" />
-      <br />
-      <img id="java" src="../assets/img/javascript.svg" />
-      <br />
-      <img id="mongodb" src="../assets/img/mongodb.png" />
-      <br />
-      <img id="vue" src="../assets/img/vue.png" class="my-5" />
-      <br />
-      <img id="nodejs" src="../assets/img/nodejs.svg" />
-      <br />
+      <h1 id="titles">HARDSKILLS</h1>
+      <b-img  class="mx-2" id="express" :src="require(`../assets/img/express.png`)" fluid alt="Fluid image"></b-img>
+      <b-img  class="mx-2" id="java" :src="require(`../assets/img/javascript.svg`)" fluid alt="Fluid image"></b-img>
+      <b-img  class="mx-2" id="mongodb" :src="require(`../assets/img/mongodb.png`)" fluid alt="Fluid image"></b-img>
+      <b-img  class="mx-2" id="vue" :src="require(`../assets/img/vue.png`)" fluid alt="Fluid image"></b-img>
+      <b-img  class="mx-2" id="nodejs" :src="require(`../assets/img/nodejs.svg`)" fluid alt="Fluid image"></b-img>
     </div>
-    <br />
-    <br />
     <div class="container">
       <h1 id="titles">SOFTSKILLS</h1>
-      <img id="mindset" src="../assets/img/mindset.png" />
-      <img id="mindset" src="../assets/img/mindset.png" />
+      <b-img id="mindset" :src="require(`../assets/img/mindset.png`)" fluid alt="Fluid image"></b-img>
     </div>
   </div>
 </template>
@@ -32,8 +24,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #2d4e74;
-  min-height: 85vh;
-  max-height: 155vh;
+  min-height: 100vh;
   height: auto;
 }
 #titles {
@@ -41,26 +32,27 @@ export default {
   float: center;
 }
 #express {
-  width: 15%;
-  float: left;
+  width: 250px;
+  height: auto;
 }
 #java {
-  width: 10%;
-  float: right;
+  max-width: 130px;
+  height: auto;
 }
 #vue {
-  width: 10%;
-  float: right;
+  max-width: 150px;
+  height: auto;
 }
 #nodejs {
-  width: 10%;
-  float: left;
+  max-width: 150px;
+  height: auto;
 }
 #mongodb {
-  width: 30%;
-  float: center;
+  max-width: 300px;
+  height: auto;
 }
 #mindset {
-  width: 30%;
+  max-width: 30%;
+  height: auto;
 }
 </style>
