@@ -1,7 +1,7 @@
 <template>
   <div id="skill" class="container text-center">
     <b-container title="hardskills" class="my-4">
-      <h1 id="titles">HARDSKILLS</h1>
+      <h1 id="titulos">HARDSKILLS</h1>
       <b-img
         class="mx-2"
         id="express"
@@ -38,8 +38,9 @@
         alt="Fluid image"
       ></b-img>
     </b-container>
+    
     <div title="softskill" class="container">
-      <h1 id="titles">SOFTSKILLS</h1>
+      <h1 id="titulos">SOFTSKILLS</h1>
       <b-img
         id="mindset"
         :src="require(`../assets/img/mindset.png`)"
@@ -63,7 +64,7 @@ export default {
   width: auto;
 
 }
-#titles {
+#titulos {
   color: white;
   float: center;
 }

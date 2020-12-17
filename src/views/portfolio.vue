@@ -15,7 +15,6 @@
   max-height: 150vh;
 }
 #titles {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
 }
 #geek {

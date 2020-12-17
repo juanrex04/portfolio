@@ -18,7 +18,6 @@ export default {};
   height: auto;
 }
 #title{
-
   float: center;
   color: white;
 }
