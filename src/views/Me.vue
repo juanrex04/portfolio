@@ -8,7 +8,7 @@
     >
       <b-row>
         <b-col md="6">
-          <b-card>
+          <b-card id="photo" class="rounded-0">
             <b-img
               :src="require(`../assets/img/photo.jpg`)"
               fluid
@@ -75,7 +75,10 @@ export default {};
   text-align: center;
   background: #2d4e74;
   min-height: 80vh;
-  max-height: 200vh;
+  height: auto;
+}
+#photo{
+height: 100%;
 }
 #img {
   max-width: 100%;
@@ -100,4 +103,5 @@ export default {};
 #body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 </style>

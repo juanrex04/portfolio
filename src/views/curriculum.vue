@@ -1,9 +1,10 @@
 <template>
-  <div id="body" class="container mx-3 my-4">
-    <img id="cv" src="../assets/img/cv.png" />
+  <div id="body" class="container mx-3 my-5">
+    <h1 id="title">Curriculum Vitae</h1>
+    <b-img id="cv" fluid :src="require(`../assets/img/cv.png`)" />
     <br />
-    <a href='../assets/docs/cv-juan.pdf' download="Juan Restrepo - CV.pdf">
-      <b-button>Presiona aqui si quieres ver mi Curriculum Vitae</b-button>
+    <a href='https://drive.google.com/file/d/1ohYQnJLvUnMOMwNqCOROiXHduZUKJ-uG/view?usp=sharing' target="blank">
+      <b-button class="my-3">Presiona aqui si quieres ver mi Curriculum Vitae</b-button>
     </a>
   </div>
 </template>
@@ -13,15 +14,15 @@ export default {};
 </script>
 <style>
 #cv {
-  width: 30%;
+  width: 300px;
+  height: auto;
 }
 #title{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   float: center;
   color: white;
 }
 .body{
   min-height: 150vh;
-  max-height: 150vh;
 }
 </style>

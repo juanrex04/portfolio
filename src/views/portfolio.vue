@@ -1,6 +1,8 @@
 <template>
   <div id="port">
-    <h1 id="titles">Portafolio</h1>
+    <h1 id="titles" class="container my-4">Portafolio</h1>
+        <b-img id="geek" :src="require(`../assets/img/geekshop.png`)" fluid>
+        </b-img>
   </div>
 </template>
 <style>
@@ -9,11 +11,15 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background: #2d4e74;
-  min-height: 91.5vh;
-  max-height: 100vh;
+  min-height: 80vh;
+  max-height: 150vh;
 }
 #titles {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
+}
+#geek {
+  max-height: 380px;
+  width: auto;
 }
 </style>
