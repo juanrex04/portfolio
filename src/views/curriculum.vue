@@ -32,4 +32,27 @@ export default {
 .body {
   min-height: 150vh;
 }
+.button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 15px 25px;
+  background-image: linear-gradient(to right, #96183e, #e24040);
+  border-radius: 8px;
+
+min-width: 65vw;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease-out;
+}
+.button:hover {
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
+}
 </style>
