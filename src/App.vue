@@ -18,7 +18,12 @@
       </b-container>
     </b-navbar>
     <b-container>
-      <router-view />
+      <transition
+        mode="out-in"
+        enter-active-class="animate__animated animate__backInDown"
+      >
+        <router-view />
+      </transition>
     </b-container>
   </div>
 </template>

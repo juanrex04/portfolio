@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import boostrap from 'bootstrap-vue'
+import 'animate.css'
 
 //Diseño 
 Vue.use(boostrap)
