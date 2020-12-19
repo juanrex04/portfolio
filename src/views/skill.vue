@@ -61,7 +61,7 @@ v-b-tooltip.hover.right
       ></b-img>
       <div class="my-3">
         <b-button class="info" v-b-modal.modal-center>Mas info acerca de mi!</b-button>
-        <b-modal id="modal-center" centered ok-only title="Algo de lo que se!">
+        <b-modal id="modal-center" centered ok-only title="Conocimientos básicos!">
           <p class="my-4">
             <ul>
               <li>Diplomado en gestión e innovacion de proyectos</li>
