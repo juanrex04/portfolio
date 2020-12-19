@@ -55,7 +55,8 @@
               <li>Diplomado en gestión e innovacion de proyectos</li>
               <li>Ingles B1</li>
               <li>Creación de documentos</li>
-              <li>Pruebas de software y ceacón de casos de pruebas</li>
+              <li>Pruebas de software</li> 
+              <li>Creación de casos de pruebas</li> 
               <li>Manejo de inventario</li>
               <li>Resolución de problemas</li>
               <li>Flexibilidad</li>
@@ -112,26 +113,26 @@ export default {
   max-width: 200px;
   height: auto;
 }
-.info{
+.info {
   appearance: none;
- outline: none;
- border: none;
- background: none;
- cursor: pointer;
- 
- display: inline-block;
- padding: 15px 25px;
- background-image: linear-gradient(to right, #96183e, #e24040);
- border-radius: 8px;
- 
- color: #FFF;
- font-size: 18px;
- font-weight: 700;
- 
- box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
- transition: 0.4s ease-out;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: inline-block;
+  padding: 15px 25px;
+  background-image: linear-gradient(to right, #96183e, #e24040);
+  border-radius: 8px;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease-out;
 }
 .button:hover {
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
- }
+}
 </style>
