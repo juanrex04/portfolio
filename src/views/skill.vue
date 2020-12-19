@@ -1,42 +1,54 @@
 <template>
   <div id="skill" class="container text-center">
-    <b-container title="hardskills" class="my-4">
-      <h1 id="titulos">HARDSKILLS</h1>
-      <b-img
-        class="mx-2"
-        id="express"
-        :src="require(`../assets/img/express.png`)"
-        fluid
-        alt="Fluid image"
-      ></b-img>
-      <b-img
-        class="mx-2 my-2"
-        id="java"
-        :src="require(`../assets/img/javascript.svg`)"
-        fluid
-        alt="Fluid image"
-      ></b-img>
-      <b-img
-        class="mx-2"
-        id="mongodb"
-        :src="require(`../assets/img/mongodb.png`)"
-        fluid
-        alt="Fluid image"
-      ></b-img>
-      <b-img
-        class="mx-2"
-        id="vue"
-        :src="require(`../assets/img/vue.png`)"
-        fluid
-        alt="Fluid image"
-      ></b-img>
-      <b-img
-        class="mx-2"
-        id="nodejs"
-        :src="require(`../assets/img/nodejs.svg`)"
-        fluid
-        alt="Fluid image"
-      ></b-img>
+    <b-container class="my-4">
+      <h1 id="titulos">Tecnologías que manejo</h1>
+      <div class="my-4">
+        <b-img
+          title="express"
+          class="mx-2"
+          id="express"
+          :src="require(`../assets/img/express.png`)"
+          fluid
+          alt="Fluid image"
+          v-b-tooltip.hover.left
+        ></b-img>
+        <b-img
+          class="mx-2 my-2"
+          title="JavaScript"
+          id="java"
+          :src="require(`../assets/img/javascript.svg`)"
+          fluid
+          alt="Fluid image"
+          v-b-tooltip.hover.bottom
+        ></b-img>
+        <b-img
+          title="MongoDB"
+          class="mx-2"
+          id="mongodb"
+          :src="require(`../assets/img/mongodb.png`)"
+          fluid
+          alt="Fluid image"
+          v-b-tooltip.hover.up
+        ></b-img>
+        <b-img
+        title="<b>VueJS</b>"
+          class="mx-2"
+          id="vue"
+          :src="require(`../assets/img/vue.png`)"
+          fluid
+          alt="Fluid image"
+          v-b-tooltip.hover.bottom.html
+        ></b-img>
+        <b-img
+        title="NodeJS"
+          class="mx-2"
+          id="nodejs"
+          :src="require(`../assets/img/nodejs.svg`)"
+          fluid
+          alt="Fluid image"
+v-b-tooltip.hover.right
+        ></b-img>
+      </div>
     </b-container>
 
     <div title="softskill" class="container">
@@ -47,7 +59,7 @@
         fluid
         alt="Fluid image"
       ></b-img>
-      <div>
+      <div class="my-3">
         <b-button class="info" v-b-modal.modal-center>Mas info acerca de mi!</b-button>
         <b-modal id="modal-center" centered ok-only title="Algo de lo que se!">
           <p class="my-4">
@@ -132,7 +144,8 @@ export default {
   box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   transition: 0.4s ease-out;
 }
-.button:hover {
+.info:hover {
+  background-image: linear-gradient(to right, #e24040, #96183e);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>

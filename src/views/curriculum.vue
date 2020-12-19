@@ -53,6 +53,7 @@ min-width: 65vw;
   transition: 0.4s ease-out;
 }
 .button:hover {
+  background-image: linear-gradient(to right, #e24040, #96183e);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>

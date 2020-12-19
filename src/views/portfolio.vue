@@ -7,8 +7,8 @@
       class="animate__animated animate__fadeInLeft"
       :src="require(`../assets/img/geekshop.png`)"
       fluid
-      v-b-tooltip.hover.right
-      title="Has click en mi para dirigirte al codigo en GitHub">
+      v-b-tooltip.hover.right.html
+      title="Has click en mi para dirigirte al repositorio en <b>GitHub</b>">
     </b-img>
     </a>
     <div>
@@ -70,6 +70,7 @@ min-width: 65vw;
   transition: 0.4s ease-out;
 }
 .button:hover {
+  background-image: linear-gradient(to right, #e24040, #96183e);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>

@@ -9,7 +9,7 @@
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav>
             <b-nav-item :to="{ name: 'skill' }"
-              >Habilidades y Conocimiento</b-nav-item
+              >Tecnologías y Conocimiento</b-nav-item
             >
             <b-nav-item :to="{ name: 'curriculum' }">Curriculum</b-nav-item>
             <b-nav-item :to="{ name: 'portfolio' }">Portafolio</b-nav-item>
