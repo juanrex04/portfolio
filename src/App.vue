@@ -28,13 +28,16 @@
   </div>
 </template>
 <style>
-#app {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: linear-gradient(to bottom, #2d4e74, rgba(232, 74, 42))
+    no-repeat center center fixed;
+}
+#app{
   text-align: center;
-  background: #2d4e74;
-  min-height: 100vh;
-  max-height: 200vh;
 }
 #navBar {
   background-color: #232f3e;

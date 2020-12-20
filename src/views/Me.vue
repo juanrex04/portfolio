@@ -69,14 +69,7 @@
 export default {};
 </script>
 <style>
-#master {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  background: #2d4e74;
-  min-height: 80vh;
-  height: auto;
-}
+
 #photo{
 height: 100%;
 }
