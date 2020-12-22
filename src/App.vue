@@ -33,7 +33,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: linear-gradient(to bottom, #2d4e74, rgba(232, 74, 42))
+  background: linear-gradient(to left, #2d4e74, rgba(232, 74, 42))
     no-repeat center center fixed;
 }
 #app{

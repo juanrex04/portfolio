@@ -48,7 +48,6 @@
   max-height: 380px;
   width: auto;
 }
-
 .button {
   appearance: none;
   outline: none;
@@ -61,7 +60,7 @@
   background-image: linear-gradient(to right, #96183e, #e24040);
   border-radius: 8px;
 
-min-width: 65vw;
+min-width: 50vw;
   color: #fff;
   font-size: 17px;
   font-weight: 500;

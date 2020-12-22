@@ -60,7 +60,7 @@ v-b-tooltip.hover.right
         alt="Fluid image"
       ></b-img>
       <div class="my-3">
-        <b-button class="info" v-b-modal.modal-center>Mas info acerca de mi!</b-button>
+        <b-button class="button" pill v-b-modal.modal-center>Mas info acerca de mi!</b-button>
         <b-modal id="modal-center" centered ok-only title="Conocimientos básicos!">
           <p class="my-4">
             <ul>
@@ -125,7 +125,7 @@ export default {
   max-width: 200px;
   height: auto;
 }
-.info {
+.button {
   appearance: none;
   outline: none;
   border: none;
@@ -137,14 +137,15 @@ export default {
   background-image: linear-gradient(to right, #96183e, #e24040);
   border-radius: 8px;
 
+min-width: 65vw;
   color: #fff;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 17px;
+  font-weight: 500;
 
   box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   transition: 0.4s ease-out;
 }
-.info:hover {
+.button:hover {
   background-image: linear-gradient(to right, #e24040, #96183e);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
