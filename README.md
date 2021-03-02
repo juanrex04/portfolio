@@ -4,16 +4,15 @@
 ```
 npm install al dependencies
 ```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
 ### Compiles and minifies for production
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Description of page 🤖
+```
+Juan Restrepo's personal portfolio, to show projects, information and knowledge.
+```
