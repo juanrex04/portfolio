@@ -2,12 +2,12 @@
   <div id="app">
     <b-navbar id="navBar" toggleable="lg" type="dark">
       <b-container>
-        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse" ></b-navbar-toggle>
         <b-navbar-brand :to="{ name: 'Me' }"
           >Juan Manuel Restrepo Moreno</b-navbar-brand
         >
         <b-collapse is-nav id="nav-collapse">
-          <b-navbar-nav>
+          <b-navbar-nav class="ml-auto">
             <b-nav-item :to="{ name: 'skill' }"
               >Tecnologías y Conocimiento</b-nav-item
             >
@@ -27,18 +27,21 @@
     </b-container>
   </div>
 </template>
+
 <style>
 body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: linear-gradient(to left, #2d4e74, rgba(232, 74, 42))
-    no-repeat center center fixed;
+  background: linear-gradient(to left, #2d4e74, rgba(232, 74, 42)) no-repeat
+    center center fixed;
+  font-size: 15px;
 }
-#app{
+#app {
   text-align: center;
 }
+
 #navBar {
   background-color: #232f3e;
   position: sticky;

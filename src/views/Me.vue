@@ -1,5 +1,5 @@
 <template>
-  <div id="master" class="container.fluid mt-4">
+  <div id="master" class="container mt-5">
     <b-card
       no-body
       class="overflow-hidden fluid"
@@ -7,33 +7,34 @@
       text-variant="white"
     >
       <b-row>
-        <b-col md="6">
-          <b-card id="photo" class="rounded-0">
+        <b-col md="12" lg="6">
+          <b-card id="photo">
             <b-img
-              :src="require(`../assets/img/photo.jpg`)"
-              fluid
+              rounded
+              id="img"
+              :src="require(`../assets/img/img.jpeg`)"
               alt="Juan Manuel"
+              fluid
           /></b-card>
         </b-col>
-        <b-col md="6">
-          <b-card-body
+        <b-col md="12" lg="6">
+          <b-card-body class="my-3"
             title="Desarrollador fronted, Tester/QA, Soporte técnico"
-            class="my-3"
           >
-            <b-card-text class="my-4">
-              Soy un joven que desea crecer cada dia adquiriendo más
-              conocimiento para el desarrollo web y el soporte técnico.
-              <br />
-              <br />
-              Soy un amante al mundo geek, las nuevas tecnologias y del cine.
-              <br />
-              Me considero alguien capaz de aprender y enseñar, totalmente
-              dispuesto a recibir las mejores críticas para mejorar en lo que se
-              crea necesario, por esta y muchas razones me considero alguien
-              capaz de trabajar en equipo
-              <br />
-              <br />
-              <div class="my-4">
+            <b-card-text class="mt-3">
+              <p>
+                Soy un joven que desea crecer cada dia adquiriendo más
+                conocimiento para el desarrollo web y el soporte técnico.
+              </p>
+              <p>
+                Soy un amante al mundo geek, las nuevas tecnologias y del cine.
+                Me considero alguien capaz de aprender y enseñar, totalmente
+                dispuesto a recibir las mejores críticas para mejorar en lo que
+                se crea necesario, por esta y muchas razones me considero
+                alguien capaz de trabajar en equipo
+              </p>
+
+              <div class="mt-5">
                 <a href="https://github.com/juanrex04" target="_BLANK">
                   <img
                     id="gitHub"
@@ -69,12 +70,11 @@
 export default {};
 </script>
 <style>
-
 #photo{
-height: 100%;
+  width: 100%;
 }
 #img {
-  max-width: 100%;
+  width: 350px;
   height: auto;
 }
 #github {
@@ -96,5 +96,4 @@ height: 100%;
 #body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 </style>
