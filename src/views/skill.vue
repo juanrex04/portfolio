@@ -1,64 +1,76 @@
 <template>
-  <div id="skill" class="container text-center">
-    <b-container class="my-4">
-      <h1 id="titulos">Tecnologías que manejo</h1>
-      <div class="my-4">
-        <b-img
-          title="express"
-          class="mx-2"
-          id="express"
-          :src="require(`../assets/img/express.png`)"
-          fluid
-          alt="Fluid image"
-          v-b-tooltip.hover.left
-        ></b-img>
-        <b-img
-          class="mx-2 my-2"
-          title="JavaScript"
-          id="java"
-          :src="require(`../assets/img/javascript.svg`)"
-          fluid
-          alt="Fluid image"
-          v-b-tooltip.hover.bottom
-        ></b-img>
-        <b-img
-          title="MongoDB"
-          class="mx-2"
-          id="mongodb"
-          :src="require(`../assets/img/mongodb.png`)"
-          fluid
-          alt="Fluid image"
-          v-b-tooltip.hover.up
-        ></b-img>
-        <b-img
-        title="<b>VueJS</b>"
-          class="mx-2"
-          id="vue"
-          :src="require(`../assets/img/vue.png`)"
-          fluid
-          alt="Fluid image"
-          v-b-tooltip.hover.bottom.html
-        ></b-img>
-        <b-img
-        title="NodeJS"
-          class="mx-2"
-          id="nodejs"
-          :src="require(`../assets/img/nodejs.svg`)"
-          fluid
-          alt="Fluid image"
-v-b-tooltip.hover.right
-        ></b-img>
-      </div>
-    </b-container>
+  <div class="container">
+    <h2 class="tituloh2 mt-3">FRONTEND</h2>
+        <b-row>
+          <b-col md="6" lg="2">
+            <b-img title="HTML 5" class="frontend" :src="require(`../assets/img/html-5.svg`)"
+            v-b-tooltip.hover.bottom/>
+          </b-col>
 
-    <div title="softskill" class="container">
-      <h1 id="titulos"></h1>
-      <b-img
-        id="mindset"
-        :src="require(`../assets/img/mindset.png`)"
-        fluid
-        alt="Fluid image"
-      ></b-img>
+          <b-col md="6" lg="2" >
+            <b-img title="CSS" class="frontend" :src="require(`../assets/img/css-3.svg`)"
+            v-b-tooltip.hover.bottom/>
+          </b-col>
+
+          <b-col md="6" lg="2">
+          <b-img  title="JavaScript" class="frontend" :src="require(`../assets/img/javascript.svg`)"
+            v-b-tooltip.hover.bottom/>
+          </b-col>
+
+          <b-col md="6" lg="2">
+            <b-img title="VueJS" class="frontend" :src="require(`../assets/img/vue.png`)" 
+            v-b-tooltip.hover.bottom
+            />
+          </b-col>
+
+          <b-col md="6" lg="2">
+            <b-img title="SCSS" class="frontend" :src="require(`../assets/img/scss.png`)" 
+            v-b-tooltip.hover.bottom
+            />
+          </b-col>
+          
+          <b-col md="6" lg="2">
+            <b-img title="Bootstrap" class="frontend" :src="require(`../assets/img/bootstrap.png`)" 
+            v-b-tooltip.bottom
+            />
+          </b-col>
+        </b-row>
+
+        <h2 class="tituloh2 m-5">BACKEND</h2>
+        <div class="m-auto">
+          <b-row>
+          <b-col md="6" lg="4">
+            <b-img
+              title="Express"
+              class="backend"
+              :src="require(`../assets/img/express.png`)"
+              alt="Fluid image"
+              v-b-tooltip.hover.left
+            />
+          </b-col>
+            
+            <b-col md="6" lg="4">
+            <b-img
+              title="MongoDB"
+              class="mongoDB"
+              :src="require(`../assets/img/mongodb.png`)"
+              alt="Fluid image"
+              v-b-tooltip.hover.up
+            />
+            </b-col>
+
+            <b-col md="12" lg="4">
+            <b-img
+            title="NodeJS"
+              class="nodejs" 
+              :src="require(`../assets/img/nodejs.svg`)"
+              alt="Fluid image"
+              v-b-tooltip.hover.right
+            />
+            </b-col>
+          </b-row>
+        </div>
+
       <div class="my-3">
         <b-button class="button" pill v-b-modal.modal-center>Mas info acerca de mi!</b-button>
         <b-modal id="modal-center" centered ok-only title="Conocimientos básicos!">
@@ -76,8 +88,9 @@ v-b-tooltip.hover.right
           </p>
         </b-modal>
       </div>
+
     </div>
-  </div>
+
 </template>
 <script>
 export default {
@@ -89,41 +102,39 @@ export default {
   },
 };
 </script>
+
 <style>
 #skill {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: auto;
 }
-#titulos {
-  color: white;
+.tituloh1 {
+  color: #ffffff;
   float: center;
 }
-#express {
-  width: 160px;
-  height: auto;
+.tituloh2 {
+  color: #ffffff;
 }
-#java {
+.frontend {
   max-width: 100px;
   height: auto;
+  margin: 1.5rem;
 }
-#vue {
-  max-width: 100px;
-  height: auto;
-}
-#nodejs {
-  max-width: 100px;
-  height: auto;
-}
-#mongodb {
-  max-width: 280px;
-  height: auto;
-}
-#mindset {
-  justify-content: center;
-  align-items: center;
+.backend {
   max-width: 200px;
   height: auto;
+  margin: 1.5rem;
+}
+.mongoDB {
+  max-width: 200px;
+  height: auto;
+  margin: 1.5rem;
+}
+.nodejs {
+  max-width: 80px;
+  height: auto;
+  margin: 1.5rem;
 }
 .button {
   appearance: none;
@@ -137,7 +148,7 @@ export default {
   background-image: linear-gradient(to right, #96183e, #e24040);
   border-radius: 8px;
 
-min-width: 65vw;
+  min-width: 65vw;
   color: #fff;
   font-size: 17px;
   font-weight: 500;
