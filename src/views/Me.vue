@@ -39,7 +39,7 @@
                   <img
                     id="gitHub"
                     src="../assets/img/github.png"
-                    v-b-tooltip.hover.left
+                    v-b-tooltip
                     title="GitHub"
                   />
                 </a>
@@ -52,7 +52,7 @@
                     id="linkedin"
                     src="../assets/img/linkedin.png"
                     alt="linkeIn"
-                    v-b-tooltip.hover.right
+                    v-b-tooltip
                     title="LinkedIn"
                   />
                 </a>

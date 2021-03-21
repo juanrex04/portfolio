@@ -29,6 +29,7 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -37,9 +38,12 @@ body {
   background: linear-gradient(to left, #2d4e74, rgba(232, 74, 42)) no-repeat
     center center fixed;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 #app {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 #navBar {

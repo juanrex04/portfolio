@@ -1,42 +1,43 @@
 <template>
   <div class="container">
-    <h2 class="tituloh2 mt-3">FRONTEND</h2>
-        <b-row>
-          <b-col md="6" lg="2">
+
+<h2 class="tituloh2 mt-5">FRONTEND</h2>
+<b-row class="mb-5">
+          <b-col md="6" lg="4">
             <b-img title="HTML 5" class="frontend" :src="require(`../assets/img/html-5.svg`)"
-            v-b-tooltip.hover.bottom/>
+            v-b-tooltip.bottom/>
           </b-col>
 
-          <b-col md="6" lg="2" >
+          <b-col md="6" lg="4" >
             <b-img title="CSS" class="frontend" :src="require(`../assets/img/css-3.svg`)"
-            v-b-tooltip.hover.bottom/>
+            v-b-tooltip.bottom/>
           </b-col>
 
-          <b-col md="6" lg="2">
+          <b-col md="6" lg="4">
           <b-img  title="JavaScript" class="frontend" :src="require(`../assets/img/javascript.svg`)"
-            v-b-tooltip.hover.bottom/>
+            v-b-tooltip.bottom/>
           </b-col>
 
-          <b-col md="6" lg="2">
+          <b-col md="6" lg="4">
             <b-img title="VueJS" class="frontend" :src="require(`../assets/img/vue.png`)" 
-            v-b-tooltip.hover.bottom
+            v-b-tooltip.bottom
             />
           </b-col>
 
-          <b-col md="6" lg="2">
+          <b-col md="6" lg="4">
             <b-img title="SCSS" class="frontend" :src="require(`../assets/img/scss.png`)" 
-            v-b-tooltip.hover.bottom
+            v-b-tooltip.bottom
             />
           </b-col>
           
-          <b-col md="6" lg="2">
+          <b-col md="6" lg="4">
             <b-img title="Bootstrap" class="frontend" :src="require(`../assets/img/bootstrap.png`)" 
             v-b-tooltip.bottom
             />
           </b-col>
         </b-row>
-
-        <h2 class="tituloh2 m-5">BACKEND</h2>
+   
+        <h2 class="tituloh2 m-3">BACKEND</h2>
         <div class="m-auto">
           <b-row>
           <b-col md="6" lg="4">
@@ -45,7 +46,7 @@
               class="backend"
               :src="require(`../assets/img/express.png`)"
               alt="Fluid image"
-              v-b-tooltip.hover.left
+              v-b-tooltip.left
             />
           </b-col>
             
@@ -55,7 +56,7 @@
               class="mongoDB"
               :src="require(`../assets/img/mongodb.png`)"
               alt="Fluid image"
-              v-b-tooltip.hover.up
+              v-b-tooltip.up
             />
             </b-col>
 
@@ -65,7 +66,7 @@
               class="nodejs" 
               :src="require(`../assets/img/nodejs.svg`)"
               alt="Fluid image"
-              v-b-tooltip.hover.right
+              v-b-tooltip.right
             />
             </b-col>
           </b-row>

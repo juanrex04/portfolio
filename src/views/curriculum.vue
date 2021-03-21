@@ -1,5 +1,5 @@
 <template>
-  <div id="body" class="container my-5">
+  <div class="container my-5">
     <h1 id="titles">Curriculum Vitae</h1>
     <transition >
       <b-img id="cv" class="animate__animated animate__fadeInDown" fluid :src="require(`../assets/img/cv.png`)" />
@@ -26,11 +26,7 @@ export default {
   height: auto;
 }
 #titles {
-  float: center;
   color: white;
-}
-.body {
-  min-height: 150vh;
 }
 .button {
   appearance: none;
