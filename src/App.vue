@@ -2,17 +2,17 @@
   <div id="app">
     <b-navbar id="navBar" toggleable="lg" type="dark">
       <b-container>
-        <b-navbar-toggle target="nav-collapse" ></b-navbar-toggle>
+        <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-navbar-brand :to="{ name: 'Me' }"
-          >Juan Manuel Restrepo Moreno</b-navbar-brand
+          >Juan Manuel Restrepo</b-navbar-brand
         >
         <b-collapse is-nav id="nav-collapse">
           <b-navbar-nav class="ml-auto">
-            <b-nav-item :to="{ name: 'skill' }"
+            <b-nav-item class="navLinks" :to="{ name: 'skill' }"
               >Tecnologías y Conocimiento</b-nav-item
             >
-            <b-nav-item :to="{ name: 'curriculum' }">Curriculum</b-nav-item>
-            <b-nav-item :to="{ name: 'portfolio' }">Portafolio</b-nav-item>
+            <b-nav-item class="navLinks" :to="{ name: 'curriculum' }">Curriculum</b-nav-item>
+            <b-nav-item class="navLinks" :to="{ name: 'portfolio' }">Portafolio</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
@@ -29,7 +29,8 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
 body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -37,13 +38,16 @@ body {
   background-size: cover;
   background: linear-gradient(to left, #2d4e74, rgba(232, 74, 42)) no-repeat
     center center fixed;
-  font-size: 15px;
-  font-family: 'Roboto', sans-serif;
 }
+
 #app {
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.navLinks{
+  font-size: 18px;
 }
 
 #navBar {
