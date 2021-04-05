@@ -15,7 +15,7 @@
         title="Has clic en mi para dirigirte al repositorio en <b>GitHub</b>">
       </b-img>
       </a>
-      <div class="my-2">
+      <div>
         <b-button class="boton" pill v-b-modal.geekshop
           >Mas info acerca de la app!</b-button
         >
@@ -37,7 +37,7 @@
       </div>
       </b-col>
     
-    <!-- Prifood -->
+      <!-- Prifood -->
       <b-col md="12" lg="6" class="my-4">
         <a href="https://github.com/juanrex04/prifood" target="_BLANK">
       <b-img
@@ -49,7 +49,7 @@
         title="Has clic en mi para dirigirte al repositorio en <b>GitHub</b>">
       </b-img>
       </a>
-      <div class="my-2">
+      <div>
         <b-button class="boton" href="https://juanprox.github.io" target="_BLANK" pill>Ir a la página</b-button>
         <b-button class="boton" pill v-b-modal.prifood
           >Mas info acerca de la página!</b-button>
@@ -70,7 +70,7 @@
       </div>
       </b-col>
 
-<!-- CyberPunk -->
+      <!-- CyberPunk -->
       <b-col md="12" lg="6" class="my-4">
         <a href="https://github.com/juanrex04/CyberPunk" target="_BLANK">
       <b-img
@@ -83,7 +83,7 @@
       </b-img>
       </a>
 
-      <div class="my-2">
+      <div>
         <b-button class="boton" href="https://juanrex04.github.io/CyberPunk/" target="_BLANK" pill>Ir a la página</b-button>
         <b-button class="boton" pill v-b-modal.cyberpunk
           >Mas info acerca de la página!</b-button>
@@ -93,17 +93,17 @@
             Esta página se desarrollo con:
             <ul>
               <li>
-                <strong>HTML</strong>
+                <b>HTML</b>
               </li>
               <li>
-                <strong>CSS/SCSS</strong>
+                <b>CSS/SCSS</b>
               </li>
               <li>
-                <strong>JavaScript</strong>
+                <b>JavaScript</b>
               </li>
               </ul>  
 
-              Esta app cuenta con <strong>RESPONSIVE DESIGN</strong> para celulares y computadores
+              Esta app cuenta con <b>RESPONSIVE DESIGN</b> para celulares y computadores
           </p>
           <template #modal-footer>
             <b>Nota: ¡Si quieres ver el código da clic en la imagen!</b>
@@ -112,7 +112,7 @@
       </div>
       </b-col>
 
-    <!-- Travelin us -->
+       <!-- Travelin us -->
       <b-col md="12" lg="6" class="my-4">
         <a href="https://github.com/juanrex04/leadingpage-bootstrap" target="_BLANK">
       <b-img
@@ -125,7 +125,7 @@
       </b-img>
       </a>
 
-      <div class="my-2">
+      <div>
         <b-button class="boton" href="https://travelingworld.netlify.app/" target="_BLANK" pill>Ir a la página</b-button>
         <b-button class="boton" pill v-b-modal.travelworld
           >Mas info acerca de la página!</b-button>
@@ -134,20 +134,20 @@
             Leading page para dar a conocer una agencia de viaje la cual cuenta con un formulario basico y diseño minimalista:
             <ul>
               <li>
-                <strong>HTML</strong>
+                <b>HTML</b>
               </li>
               <li>
-                <strong>CSS</strong>
+                <b>CSS</b>
               </li>
               <li>
-                <strong>JavaScript</strong>
+                <b>JavaScript</b>
               </li>
               <li>
-                <strong>Bootstrap</strong>
+                <b>Bootstrap</b>
               </li>
               </ul>  
 
-              Esta página cuenta con diseño <strong>RESPONSIVE DESIGN</strong> para celulares y computadores
+              Esta página cuenta con diseño <b>RESPONSIVE DESIGN</b> para celulares y computadores
           </p>
           <template #modal-footer>
             <b>Nota: ¡Si quieres ver el código da clic en la imagen!</b>
@@ -155,6 +155,43 @@
         </b-modal>
       </div>
       </b-col>
+      
+      <!-- Animesearch -->
+      <b-col md="12" lg="12" class="my-4">
+        <a href="https://github.com/juanrex04/anime-databases" target="_BLANK">
+      <b-img
+        id="photos"
+        class="animate__animated animate__fadeInRight"
+        :src="require(`../assets/img/animesearch.png`)"
+        fluid
+        v-b-tooltip.right.html
+        title="Has clic en mi para dirigirte al repositorio en <b>GitHub</b>">
+      </b-img>
+      </a>
+
+      <div>
+        <b-button class="boton" href="https://animesearching.netlify.app/" target="_BLANK" pill>Ir a la página</b-button>
+        <b-button class="boton" pill v-b-modal.animesearch
+          >Mas info acerca de la página!</b-button>
+        <b-modal id="animesearch" centered ok-only title="Anime Search!">
+          <p class="my-4">
+            Pagina que permite la busqueda de animes por medio de su nombres o palabras relacionadas a estos, esta pagina fue realizada con 
+            <ul>
+              <li>
+                <b>VueJS</b>
+              </li>
+              </ul>  
+
+              La API usada en esta pagina es <a href="https://jikan.docs.apiary.io/#" target="_BLANK">Jikan</a>
+          </p>
+          <template #modal-footer>
+            <b>Nota: ¡Si quieres ver el código da clic en la imagen!</b>
+          </template>
+        </b-modal>
+      </div>
+      </b-col>
+
+
     </b-row>
   </div>
 </template>
@@ -175,6 +212,8 @@
   border: none;
   background: none;
   cursor: pointer;
+
+  margin-top: 1.5rem;
 
   display: inline-block;
   padding: 20px 30px;
