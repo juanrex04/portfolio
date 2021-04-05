@@ -74,7 +74,7 @@ export default {};
 <style>
 #photo {
   width: 80%;
-  margin: 3rem;
+  margin-top: 3rem;
 }
 .socialMedia {
   width: 120px;
