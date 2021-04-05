@@ -8,23 +8,27 @@
     >
       <b-row>
         <b-col md="12" lg="6">
-          <b-card id="photo">
-            <b-img
-              rounded
-              id="img"
-              :src="require(`../assets/img/img.jpeg`)"
-              alt="Juan Manuel"
-              fluid
-          /></b-card>
+          <b-img
+            rounded
+            id="photo"
+            :src="require(`../assets/img/img.jpeg`)"
+            alt="Juan Manuel"
+            fluid
+          />
         </b-col>
         <b-col md="12" lg="6">
-          <b-card-body class="my-3"
-            title="Desarrollador fronted, Tester/QA, Soporte técnico"
+          <b-card-body
+            class="mt-5 title"
+            title="DESARROLLADOR FRONTEND, TESTER/QA, SOPORTE TÉCNICO"
           >
-            <b-card-text class="mt-3">
+            <b-card-text class="my-5">
               <p>
-                Soy un joven que desea crecer cada dia adquiriendo más
-                conocimiento para el desarrollo web y el soporte técnico.
+                Hola, soy Juan Manuel Restrepo un
+                <strong>FRONTEND DEVELOPER</strong>, he adquirido gran parte de
+                mis habilidades de manera autodidacta, gracias a videos de
+                YouTube o cursos, por ende cuento con conocimiento en responsive
+                design y algo de diseño para la creación de increíbles sitios
+                web.
               </p>
               <p>
                 Soy un amante al mundo geek, las nuevas tecnologias y del cine.
@@ -34,12 +38,11 @@
                 alguien capaz de trabajar en equipo
               </p>
 
-              <div class="mt-5">
+              <div>
                 <a href="https://github.com/juanrex04" target="_BLANK">
                   <img
-                    id="gitHub"
                     src="../assets/img/github.png"
-                    v-b-tooltip
+                    v-b-tooltip.left
                     title="GitHub"
                   />
                 </a>
@@ -49,10 +52,9 @@
                   class="mx-4"
                 >
                   <img
-                    id="linkedin"
                     src="../assets/img/linkedin.png"
                     alt="linkeIn"
-                    v-b-tooltip
+                    v-b-tooltip.right
                     title="LinkedIn"
                   />
                 </a>
@@ -70,30 +72,20 @@
 export default {};
 </script>
 <style>
-#photo{
-  width: 100%;
+#photo {
+  width: 80%;
+  margin: 3rem;
 }
-#img {
-  width: 350px;
+.socialMedia {
+  width: 120px;
   height: auto;
 }
-#github {
-  width: 100px;
-  height: auto;
+
+strong {
+  color: rgb(214, 225, 8);
 }
-#linked {
-  width: 100px;
-  height: auto;
-}
-#description {
-  text-align: left;
-  height: auto;
-}
-#title {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  float: center;
-}
-#body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+.title {
+  align-items: center;
 }
 </style>
