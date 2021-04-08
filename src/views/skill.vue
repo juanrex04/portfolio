@@ -105,18 +105,6 @@ export default {
 </script>
 
 <style>
-#skill {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  width: auto;
-}
-.tituloh1 {
-  color: #ffffff;
-  float: center;
-}
-.tituloh2 {
-  color: #ffffff;
-}
 .frontend {
   max-width: 100px;
   height: auto;
@@ -142,23 +130,20 @@ export default {
   outline: none;
   border: none;
   background: none;
-  cursor: pointer;
 
   display: inline-block;
   padding: 15px 25px;
-  background-image: linear-gradient(to right, #96183e, #e24040);
+  background-image: linear-gradient(to right, #0a043c, #03506f);
   border-radius: 8px;
 
   min-width: 65vw;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 20px;
 
   box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   transition: 0.4s ease-out;
 }
 .button:hover {
-  background-image: linear-gradient(to right, #e24040, #96183e);
+  background-image: linear-gradient(to right, #03506f, #0a043c);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>

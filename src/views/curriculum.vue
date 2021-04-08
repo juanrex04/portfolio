@@ -9,7 +9,7 @@
       href="https://drive.google.com/file/d/1ohYQnJLvUnMOMwNqCOROiXHduZUKJ-uG/view?usp=sharing"
       target="_BLANK"
     >
-      <b-button pill class="button my-3"
+      <b-button pill class="btns my-3"
         >Presiona aqui si quieres ver mi Curriculum Vitae</b-button
       >
     </a>
@@ -28,28 +28,26 @@ export default {
 #titles {
   color: white;
 }
-.button {
+
+.btns {
   appearance: none;
   outline: none;
   border: none;
   background: none;
-  cursor: pointer;
 
   display: inline-block;
-  padding: 15px 25px;
-  background-image: linear-gradient(to right, #96183e, #e24040);
+  padding: 15px;
+  background-image: linear-gradient(to right, #0a043c, #03506f);
   border-radius: 8px;
 
-min-width: 65vw;
-  color: #fff;
-  font-size: 17px;
-  font-weight: 500;
+  min-width: 40vw;
+  font-size: 1.2rem;
 
   box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   transition: 0.4s ease-out;
 }
-.button:hover {
-  background-image: linear-gradient(to right, #e24040, #96183e);
+.btns:hover {
+  background-image: linear-gradient(to right, #03506f, #0a043c);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>

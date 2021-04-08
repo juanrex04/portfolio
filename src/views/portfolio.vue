@@ -218,18 +218,17 @@
   display: inline-block;
   padding: 20px 30px;
   margin-left: 15px;
-  background-image: linear-gradient(to right, #96183e, #e24040);
+  background-image: linear-gradient(to right, #0a043c, #03506f);
   border-radius: 8px;
 
-  color: #fff;
-  font-size: 17px;
+  font-size: 1.2rem;
   font-weight: 500;
 
   box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
   transition: 0.4s ease-out;
 }
 .boton:hover {
-  background-image: linear-gradient(to right, #e24040, #96183e);
+  background-image: linear-gradient(to right, #03506f, #0a043c);
   box-shadow: 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>
