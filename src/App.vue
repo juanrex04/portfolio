@@ -36,7 +36,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background: linear-gradient(to left, #2d4e74, rgba(232, 74, 42)) no-repeat
+  background: linear-gradient(to left, #03506f, #a3ddcb) no-repeat
     center center fixed;
 }
 
@@ -44,6 +44,7 @@ body {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  color: #ffe3de;
 }
 
 .navLinks{
@@ -51,7 +52,7 @@ body {
 }
 
 #navBar {
-  background-color: #232f3e;
+  background-color: #276678;
   position: sticky;
 }
 </style>
