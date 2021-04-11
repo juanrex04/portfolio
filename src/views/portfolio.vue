@@ -15,6 +15,7 @@
         title="Has clic en mi para dirigirte al repositorio en <b>GitHub</b>">
       </b-img>
       </a>
+
       <div>
         <b-button class="boton" pill v-b-modal.geekshop
           >Mas info acerca de la app!</b-button
@@ -157,7 +158,7 @@
       </b-col>
       
       <!-- Animesearch -->
-      <b-col md="12" lg="12" class="my-4">
+      <b-col md="12" lg="" class="my-4">
         <a href="https://github.com/juanrex04/anime-databases" target="_BLANK">
       <b-img
         id="photos"
@@ -175,14 +176,50 @@
           >Mas info acerca de la página!</b-button>
         <b-modal id="animesearch" centered ok-only title="Anime Search!">
           <p class="my-4">
-            Pagina que permite la busqueda de animes por medio de su nombres o palabras relacionadas a estos, esta pagina fue realizada con 
+            Página que permite la busqueda de animes por medio de su nombres o palabras relacionadas a estos, esta página fue realizada con 
             <ul>
               <li>
                 <b>VueJS</b>
               </li>
               </ul>  
 
-              La API usada en esta pagina es <a href="https://jikan.docs.apiary.io/#" target="_BLANK">Jikan</a>
+              La API usada en esta página es <a href="https://jikan.docs.apiary.io/#" target="_BLANK">Jikan</a>
+          </p>
+          <template #modal-footer>
+            <b>Nota: ¡Si quieres ver el código da clic en la imagen!</b>
+          </template>
+        </b-modal>
+      </div>
+      </b-col>
+
+      <!-- CarShop -->
+      <b-col md="12" lg="6" class="my-4">
+        <a href="https://github.com/juanrex04/carritoDeCompras" target="_BLANK">
+      <b-img
+        id="photos"
+        class="animate__animated animate__fadeInRight"
+        :src="require(`../assets/img/cartShop.png`)"
+        fluid
+        v-b-tooltip.right.html
+        title="Has clic en mi para dirigirte al repositorio en <b>GitHub</b>">
+      </b-img>
+      </a>
+
+      <div>
+        <b-button class="boton" href="https://cartshop-vue3.netlify.app/" target="_BLANK" pill>Ir a la página</b-button>
+        <b-button class="boton" pill v-b-modal.cartshop
+          >Mas info acerca de la página!</b-button>
+        <b-modal id="cartshop" centered ok-only title="Cart Shop!">
+          <p class="my-4">
+            Página que permite la simulación de un carro de compras con productos traidos desde un <strong>JSON</strong>, esta página se desarrollo usando:
+            <ul>
+              <li>
+                <b>VueJS 3</b>
+              </li>
+              <li>
+                <b>Bootstrap</b>
+              </li>
+              </ul>  
           </p>
           <template #modal-footer>
             <b>Nota: ¡Si quieres ver el código da clic en la imagen!</b>
