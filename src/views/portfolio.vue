@@ -24,7 +24,7 @@
           <p class="my-4">
             página que nos permite gestionar un sistema de inventario para juegos y administrar
             usuarios registrados en la base de datos, este página cuenta con tres roles para su uso:
-            <ul>
+            <ul class="my-2">
               <li>Administrador</li>
               <li>Empleado</li>
               <li>Cliente</li>
@@ -57,7 +57,7 @@
         <b-modal id="prifood" centered ok-only title="PRIFOOD!">
           <p class="my-4">
             Página que nos permite visualizar los productos de Prifood y conocer un poco más acerca del restaurante de comida rápida como:
-            <ul>
+            <ul class="my-2">
               <li>Localización</li>
               <li>Redes Sociales</li>
               <li>Número telefónico</li>
@@ -92,7 +92,7 @@
           <p class="my-4">
             Página que nos permite conocer mas acerca del estilo CyberPunk y en donde se puede encontrar refencias a este movimiento
             Esta página se desarrollo con:
-            <ul>
+            <ul class="my-2">
               <li>
                 <b>HTML</b>
               </li>
@@ -133,7 +133,7 @@
         <b-modal id="travelworld" centered ok-only title="Traveling us!">
           <p class="my-4">
             Leading page para dar a conocer una agencia de viaje la cual cuenta con un formulario basico y diseño minimalista:
-            <ul>
+            <ul class="my-2">
               <li>
                 <b>HTML</b>
               </li>
@@ -158,7 +158,7 @@
       </b-col>
       
       <!-- Animesearch -->
-      <b-col md="12" lg="" class="my-4">
+      <b-col md="12" lg="6" class="my-4">
         <a href="https://github.com/juanrex04/anime-databases" target="_BLANK">
       <b-img
         id="photos"
@@ -177,7 +177,7 @@
         <b-modal id="animesearch" centered ok-only title="Anime Search!">
           <p class="my-4">
             Página que permite la busqueda de animes por medio de su nombres o palabras relacionadas a estos, esta página fue realizada con 
-            <ul>
+            <ul class="my-2">
               <li>
                 <b>VueJS</b>
               </li>
@@ -212,12 +212,59 @@
         <b-modal id="cartshop" centered ok-only title="Cart Shop!">
           <p class="my-4">
             Página que permite la simulación de un carro de compras con productos traidos desde un <strong>JSON</strong>, esta página se desarrollo usando:
-            <ul>
+            <ul class="my-2">
               <li>
                 <b>VueJS 3</b>
               </li>
               <li>
                 <b>Bootstrap</b>
+              </li>
+              </ul>  
+          </p>
+          <template #modal-footer>
+            <b>Nota: ¡Si quieres ver el código da clic en la imagen!</b>
+          </template>
+        </b-modal>
+      </div>
+      </b-col>
+
+      <!-- chatFirebase -->
+      <b-col md="12" lg="" class="my-4">
+        <a href="https://github.com/juanrex04/chatFirebase" target="_BLANK">
+      <b-img
+        id="photos"
+        class="animate__animated animate__fadeInLeft"
+        :src="require(`../assets/img/chatFirebase.png`)"
+        fluid
+        v-b-tooltip.right.html
+        title="Has clic en mi para dirigirte al repositorio en <b>GitHub</b>">
+      </b-img>
+      </a>
+
+      <div>
+        <b-button class="boton" href="https://chatfirebase-4adc8.web.app/" target="_BLANK" pill>Ir a la página</b-button>
+        <b-button class="boton" pill v-b-modal.chatFirebase
+          >Mas info acerca de la página!</b-button>
+        <b-modal id="chatFirebase" centered ok-only title="Chat con Firebase!">
+          <p class="my-4">
+            Página que permite la simulación de un chat en tiempo real, 
+            la cual cuenta con logueo por medio de Google gracias al uso de Firebase como backend para la validación de usuarios, 
+            esta página se desarrollo usando:
+            <ul class="my-2">
+              <li>
+                <b>HTML</b>
+              </li>
+              <li>
+                <b>JavaScript</b>
+              </li>
+              <li>
+                <b>CSS</b>
+              </li>
+              <li>
+                <b>Bootstrap</b>
+              </li>
+              <li>
+                <b>Firebase</b>
               </li>
               </ul>  
           </p>
